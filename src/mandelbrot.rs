@@ -9,6 +9,7 @@ use sdl2::render;
 use super::mandelbrot;
 use iterate;
 
+///TODO: Documentation
 pub struct Mandelbrot {
     pub screen_width: u32,
     pub screen_height: u32,
@@ -18,6 +19,7 @@ pub struct Mandelbrot {
 }
 
 
+///TODO: Documentation
 pub struct Offset {
     coords: (f32, f32),
 }
@@ -46,6 +48,7 @@ impl Offset  {
 }
 
 
+///TODO: Documentation
 pub fn draw( drawer: &mut render::RenderDrawer, mandelbrot: &Vec<Vec<Color>>) {
     drawer.clear();
 
@@ -57,6 +60,7 @@ pub fn draw( drawer: &mut render::RenderDrawer, mandelbrot: &Vec<Vec<Color>>) {
     }
 }
 
+///TODO: Documentation
 pub fn generate ( mandelbrot: &Mandelbrot) -> Vec<Vec<Color>> {
     let &Mandelbrot {
         screen_width,
