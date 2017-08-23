@@ -2,7 +2,7 @@ pub struct Mandelbrot {
     screen_width: u32,
     screen_height: u32,
     unit: u32,
-    offset: (f32, f32)
+    offset: Offset,
 }
 
 
