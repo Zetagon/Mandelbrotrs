@@ -1,6 +1,6 @@
 extern crate sdl2;
 
-mod mandelbrot;
+pub mod mandelbrot;
 ///
 /// Calculates whether the point c is a part of the Mandelbrot set
 ///
